@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-^xsbcy1qzkv@^9)vqqllji!7ilfzc-m)r0)&11u9u-*49=9g7@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = ['https://munchmate-hwe0ftdab7h9h4d8.uksouth-01.azurewebsites.net']
 
 
@@ -99,11 +99,11 @@ DATABASES = {
 # DATABASES = {
 #     "default": {
 #         "ENGINE": "django.db.backends.postgresql",
-#         "NAME": "postgres",  # or your actual database name
-#         "USER": "syvkysoxfz@munchmate-server",
-#         "PASSWORD": "Elephants@",  # No {curly} braces, just the password
-#         "HOST": "munchmate-server.postgres.database.azure.com",
-#         "PORT": "5432",
+#         "NAME": "postgres",  
+#         "USER": "***************",
+#         "PASSWORD": "**********",  
+#         "HOST": "****.postgres.database.azure.com",
+#         "PORT": "****",
 #     }
 # }
 
